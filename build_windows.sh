@@ -1,7 +1,7 @@
 export PATH=/cygdrive/c/tools/cygwin/bin:$PATH
 
 wget -q -O OpenJDK10_x64_Windows.zip "https://api.adoptopenjdk.net/v2/binary/releases/openjdk10?os=windows&release=latest&arch=x64"
-JDK_BOOT_DIR=$PWD/$(unzip -Z1 OpenJDK10_x64_Windows.zip | grep 'bin/javac'  | tr '/' '\n' | tail -3 | head -1)
+JDK_BOOT_DIR=$PWD/$(unzip -Z1 OpenJDK10_x64_Windows.zip | grep 'jdk-10~1.2_1/bin/javac'  | tr '/' '\n' | tail -3 | head -1)
 unzip -q OpenJDK10_x64_Windows.zip
 
 # unset cygwin's gcc preconfigured
