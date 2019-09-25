@@ -1,5 +1,5 @@
 language: cpp
-env: SOURCE_JDK_TAG=demo0.0.1
+env: SOURCE_JDK_TAG=demo-zoo-0.0.1
 matrix:
   include:
   - os: windows
