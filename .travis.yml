@@ -29,6 +29,6 @@ deploy:
   file: openjdk-build/workspace/target/*
   skip_cleanup: true
   on:
-    repo: n9x0n/trava-jdk-11-dcevm
+    repo: zoompakty/trava-jdk-11-dcevm
     all_branches: true
     tags: true
